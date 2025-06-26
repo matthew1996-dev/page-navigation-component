@@ -1,4 +1,47 @@
-# Page Navigator Component
+# Dynamic Page Navigator
+
+![Dynamic Page Navigator Showcase](public/Image.png)
+
+An intuitive and dynamic page navigation component built with React and TypeScript. This component allows for seamless management of your application's flow with drag-and-drop reordering, dynamic page adding, and a clean, modern interface.
+
+## Features
+
+- **Drag-and-Drop Reordering:** Easily reorder pages with a smooth drag-and-drop interface.
+- **Dynamic Page Management:** Add new pages to the navigation flow on the fly.
+- **Active State Management:** Clear visual indicators for the currently active page.
+- **Customizable Action Menus:** Each page item can have a context menu with custom actions.
+- **Modern UI:** A clean and modern design built with Tailwind CSS.
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/) (v14 or later)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/matthew1996-dev/page-navigation-component.git
+    ```
+2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+3.  Run the development server
+    ```sh
+    npm start
+    ```
+
+## Technologies Used
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [dnd-kit](https://dndkit.com/) for drag-and-drop functionality
 
 This project is a React-based web application showcasing a dynamic and interactive page navigation component. It features drag-and-drop reordering, dynamic page creation, and context-sensitive action menus for each page item. The application also includes a component showcase section to demonstrate individual UI elements used within the navigator.
 

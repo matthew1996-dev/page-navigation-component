@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, forwardRef } from 'react';
 import DotsVerticalIcon from './icons/DotsVerticalIcon';
-import ActionMenu, { ActionMenuItem } from './ActionMenu';
+import ActionMenu, { ActionMenuItem } from './ContextMenu';
 import { DraggableAttributes, DraggableSyntheticListeners } from '@dnd-kit/core';
 
 /**
@@ -149,7 +149,6 @@ const StyledButton = forwardRef<HTMLDivElement, StyledButtonProps>(
         {/* Action menu trigger button (three-dots icon). Rendered only if active and action items exist. */}
         {isActive && (
           <>
-            <div className="h-[20px] w-px bg-[#E1E1E1] self-center" aria-hidden="true"></div>
             <button
               ref={actionButtonRef}
               type="button"
